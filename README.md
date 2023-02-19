@@ -1,13 +1,12 @@
-# cmpe282_homework1_active_directory
+# ActiveDirectory_CMPE282
 
 ### Steps:
 
 ### Step 1: Set up AWS managed active directory on directory service.
 ```
-- Input Directory DNS Name.
-- Provide Admin Password for Active Directory.
-- Select the VPC and host subnets in different availability zones.
- ```
+•	Once after logging into the AWS account navigate to the AWS management console and go to workspaces and select “directories” as shown below and select “Microsoft AD” and click next:
+
+
  ![Active Directory](screenshots/active.png)
  
 ### Step 2: Launch EC2 instance with microsoft Os image
