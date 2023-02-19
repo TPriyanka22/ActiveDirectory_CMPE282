@@ -1,15 +1,16 @@
-# ActiveDirectory_CMPE282
+# cmpe282_homework1_active_directory
 
 ### Steps:
 
 ### Step 1: Set up AWS managed active directory on directory service.
 ```
-•	Once after logging into the AWS account navigate to the AWS management console and go to workspaces and select “directories” as shown below and select “Microsoft AD” and click next:
-
-
+- Input Directory DNS Name.
+- Provide Admin Password for Active Directory.
+- Select the VPC and host subnets in different availability zones.
+ ```
  ![Active Directory](screenshots/active.png)
  
-### Step 2: Launch EC2 instance with microsoft Os image
+### Step 2: Lanch EC2 instance with microsoft Os image
  ```
 - Connect to Microsoft EC2 Instance.
 - Set DNS address of Directory Service created in AWS, inside Internet Protocol(TCP/IPv4) Properties.
@@ -18,11 +19,8 @@
 - Now we are connected to our created Active Directory 
  ```
 ![Instance](screenshots/ec2.png)
-
 ![Domain](screenshots/feature.png)
-
-![Domain](screenshots/domain1.png)
-
+![Domain](screenshots/domain.png)
 ![DNS](screenshots/dns.png)
  
 ### Step 3: Import Users in AD from large dataset
@@ -31,11 +29,8 @@
 - Then use a PowerShell script to add the user data one at a time to Active Directory
 ```
 ![Data](screenshots/data.png)
-
 ![Import](screenshots/users.png)
 
 ### Step 4: Checking Number of User in the Active Directory
 
 ![users](screenshots/count.png)
-
- 
