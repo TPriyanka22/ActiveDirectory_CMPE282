@@ -16,7 +16,7 @@
 - Set DNS address of Directory Service created in AWS, inside Internet Protocol(TCP/IPv4) Properties.
 - Set the Domain name of Directory Service
 - Install all the active directory domain feature 
-- Now we are connected to our created Active Directory i.e “sirisha.com”
+- Now we are connected to our created Active Directory 
  ```
 ![Instance](screenshots/ec2.png)
 
