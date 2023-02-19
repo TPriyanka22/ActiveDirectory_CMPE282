@@ -19,8 +19,11 @@
 - Now we are connected to our created Active Directory i.e “sirisha.com”
  ```
 ![Instance](screenshots/ec2.png)
+
 ![Domain](screenshots/feature.png)
+
 ![Domain](screenshots/domain1.png)
+
 ![DNS](screenshots/dns.png)
  
 ### Step 3: Import Users in AD from large dataset
@@ -29,6 +32,7 @@
 - Then use a PowerShell script to add the user data one at a time to Active Directory
 ```
 ![Data](screenshots/data.png)
+
 ![Import](screenshots/users.png)
 
 ### Step 4: Checking Number of User in the Active Directory
