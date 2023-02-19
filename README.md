@@ -10,7 +10,7 @@
  ```
  ![Active Directory](screenshots/active.png)
  
-### Step 2: Lanch EC2 instance with microsoft Os image
+### Step 2: Launch EC2 instance with microsoft Os image
  ```
 - Connect to Microsoft EC2 Instance.
 - Set DNS address of Directory Service created in AWS, inside Internet Protocol(TCP/IPv4) Properties.
